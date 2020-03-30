@@ -1,0 +1,75 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #e80975;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.input-info, .output-info{
+  background-color: white;
+  width: 70%;
+  padding: 30px;
+  margin-left: 15%;
+  border-radius: 10px;
+}
+
+.input-utente{
+  display: flex;
+  justify-content: space-around;
+}
+
+.input h4{
+  color: #e80975;
+  text-align: center;
+  padding: 5px;
+}
+
+.input input, select{
+  border-radius: 5px;
+  border-color: #e80975;
+  padding: 3px;
+}
+
+.bottoni{
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  width: 100px;
+  height: 25px;
+  border-radius: 5px;
+  margin: 50px 8px 0;
+  font-weight: 800;
+  color: #e80975;
+  cursor: pointer;
+}
+
+#calcolo-biglietto{
+  margin-top: 25px;
+}
+
+.output-utente{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid grey;
+  padding: 20px;
+}
+
+.output-utente h3, .output-utente h4{
+  margin-bottom: 40px;
+}
+
+#calcolo-biglietto{
+  opacity: 0;
+  transition: 0.1s;
+}
